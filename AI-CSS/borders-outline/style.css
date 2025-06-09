@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.demo {
+  margin-bottom: 40px;
+}
+
+.box {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  width: 180px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+/* Border Width */
+.border-width-thin {
+  border: 1px solid black;
+}
+.border-width-medium {
+  border: 5px solid black;
+}
+.border-width-thick {
+  border: 10px solid black;
+}
+
+/* Border Styles */
+.border-style-solid {
+  border: 3px solid black;
+}
+.border-style-dashed {
+  border: 3px dashed black;
+}
+.border-style-dotted {
+  border: 3px dotted black;
+}
+.border-style-double {
+  border: 6px double black;
+}
+.border-style-groove {
+  border: 6px groove black;
+}
+.border-style-ridge {
+  border: 6px ridge black;
+}
+.border-style-inset {
+  border: 6px inset black;
+}
+.border-style-outset {
+  border: 6px outset black;
+}
+.border-style-none {
+  border: none;
+}
+.border-style-hidden {
+  border: hidden;
+}
+
+/* Border Colors */
+.border-color-red {
+  border: 4px solid red;
+}
+.border-color-green {
+  border: 4px solid green;
+}
+.border-color-blue {
+  border: 4px solid blue;
+}
+.border-multi-color {
+  border-top: 4px solid red;
+  border-right: 4px solid green;
+  border-bottom: 4px solid blue;
+  border-left: 4px solid orange;
+}
+
+/* Border Radius */
+.border-radius-small {
+  border: 4px solid black;
+  border-radius: 8px;
+}
+.border-radius-large {
+  border: 4px solid black;
+  border-radius: 20px;
+}
+.border-radius-circle {
+  border: 4px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+
+/* Outline Properties */
+.outline-basic {
+  border: 2px solid transparent;
+  outline: 2px solid red;
+}
+.outline-offset {
+  border: 2px solid transparent;
+  outline: 2px solid blue;
+  outline-offset: 10px;
+}
+.outline-dotted {
+  border: 2px solid transparent;
+  outline: 2px dotted green;
+}
+.outline-none {
+  border: 2px solid black;
+  outline: none;
+}

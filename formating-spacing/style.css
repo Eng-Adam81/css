@@ -1,0 +1,21 @@
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+
+
+    border-radius: 20px;
+    border: solid 20px red;
+
+    outline-style: solid;
+    outline-width: 20px;
+    outline-color: red;
+    outline-offset: 20px;
+    padding: 15px;
+
+}
+
+body{
+    padding: 50px;
+}
